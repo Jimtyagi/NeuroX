@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'playfairRegular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'lufgaRegular';
+  src: local('lufgaRegular'),
+    url('./assets/fonts/Lufga-Regular.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'playfairRegular';
+  src: local('playfairRegular'),
+    url('./assets/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: bold;
+}
