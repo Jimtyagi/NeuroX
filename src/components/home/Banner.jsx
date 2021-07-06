@@ -77,8 +77,8 @@ function Banner() {
       <div
         style={{
           position: 'absolute',
-          right: '-15em',
-          top: '25vh',
+          top: '30vh',
+          left:'65em',
           display: 'flex',
           flexDirection: 'column',
         }}
