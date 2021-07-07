@@ -7,6 +7,10 @@ function WhyUs() {
   return (
     <div style={styles.container}>
       <span style={styles.title}>Why neuroX ?</span>
+      <div style={{justifyContent: 'center',
+              alignItems: 'center',
+              display: 'flex',
+              flexDirection: 'column',}}>
         <div style={styles.innerContainer}>
 
         <WhyBox title="1. Novel AI Technology " />
@@ -23,7 +27,7 @@ function WhyUs() {
         <WhyBox title="8. Pre investments, grants and incentives"/ >
         <WhyBox title="9. Professional team of engineers and clinicians"/ >
         </div>
-     
+        </div>
       <div style={{ ...styles.bottomContainer, position: 'relative' }}>
         <div style={{ marginRight: '2em', position: 'relative' }}>
           <div style={styles.absoluteGreenborder}></div>

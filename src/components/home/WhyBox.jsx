@@ -23,7 +23,9 @@ const styles = {
     borderRightWidth: '2px',
     padding: '0.3em 1em',
     margin: '1em 1em',
-    width: '40vw',
+    width: '100vw',
+    height:'15vh',
+    
   },
   title: {
     fontSize: '0.8em',
