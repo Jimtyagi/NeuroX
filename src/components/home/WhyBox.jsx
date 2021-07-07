@@ -24,7 +24,7 @@ const styles = {
     padding: '0.3em 1em',
     margin: '1em 1em',
     width: '100vw',
-    height:'15vh',
+    height:'8vh',
     
   },
   title: {
