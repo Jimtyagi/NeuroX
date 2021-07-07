@@ -2,8 +2,10 @@ import React from 'react';
 import logo from '../../assets/logo.png';
 import burger from '../../assets/burger.png';
 import slide from '../../assets/Rotating_Brain.gif';
+import { useHistory } from 'react-router-dom';
 
 function Banner() {
+  const history = useHistory();
   return (
     <div style={styles.container} className="banner-background">
       <div style={styles.sidebarContainer}>
@@ -34,12 +36,13 @@ function Banner() {
           <div style={{ display: 'flex', flexDirection: 'row' }}>
             <button
               style={{ ...styles.button, marginRight: '1em' }}
+              onClick={() => history.push('/Login')}
               className="green-border-hover"
             >
               Login
             </button>
-            <button style={styles.button} className="green-border-hover">
-              Sign Up
+            <button style={styles.button} onClick={() => history.push('/Register')}  className="green-border-hover">
+            Sign up
             </button>
           </div>
         </div>

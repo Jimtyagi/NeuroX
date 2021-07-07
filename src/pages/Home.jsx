@@ -3,6 +3,7 @@ import Service from '../components/home/Service';
 import WhyUs from '../components/home/WhyUs';
 import Footer from '../components/home/Footer';
 import Banner from '../components/home/Banner';
+import Login from "../containers/Login";
 
 function Home() {
   return (

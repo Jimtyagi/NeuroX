@@ -1,11 +1,15 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 function Footer() {
+  const history = useHistory();
   return (
     <div style={styles.container} className="footer-background">
       <div style={styles.earlyAccessDiv}>
         <p style={styles.text}>Get Early Access</p>{' '}
-        <button style={styles.button} className="button-color-hover">
+        <button style={styles.button}
+        onClick={() => history.push('/Register')} 
+        className="button-color-hover">
           Sign Up
         </button>
       </div>
