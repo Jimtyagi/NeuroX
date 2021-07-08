@@ -8,12 +8,7 @@ function Service() {
         <p style={{ ...styles.heading, lineHeight: '0.5em' }}>Our</p>
         <p style={styles.heading}>Services</p>
 
-        <p style={{ textAlign: 'left', color: '#fff' }}>
-          Lorem Ipsum dolor sit amet, Lorem Ipsum dolor sit amet, Lorem Ipsum
-          dolor sit amet, Lorem Ipsum dolor sit amet, Lorem Ipsum dolor sit
-          amet, Lorem Ipsum dolor sit amet, Lorem Ipsum dolor sit amet, Lorem
-          Ipsum dolor sit amet,
-        </p>
+        
       </div>
       <div style={styles.rightSection}>
         <ServiceBox title="Diagnostic" />

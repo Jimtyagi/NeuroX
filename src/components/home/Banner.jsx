@@ -30,7 +30,7 @@ function Banner() {
               style={{ fontSize: '1.5em', color: '#fff', paddingLeft: '1em' }}
             >
               {' '}
-              Neuro X Technology
+              Neuro X Technologies
             </span>
           </div>
           <div style={{ display: 'flex', flexDirection: 'row' }}>
@@ -41,8 +41,12 @@ function Banner() {
             >
               Login
             </button>
-            <button style={styles.button} onClick={() => history.push('/Register')}  className="green-border-hover">
-            Sign up
+            <button
+              style={styles.button}
+              onClick={() => history.push('/Register')}
+              className="green-border-hover"
+            >
+              Sign up
             </button>
           </div>
         </div>
@@ -50,9 +54,9 @@ function Banner() {
           style={{
             display: 'flex',
             flexDirection: 'column',
-            marginTop: '25vh',
-            justifyContent: 'flex-start',
-            marginLeft: '10vh'
+            justifyContent: 'center',
+            marginLeft: '10vh',
+            height: '100%',
           }}
         >
           <span style={{ ...styles.heading, lineHeight: '1em' }}>NUERO X </span>
@@ -66,11 +70,11 @@ function Banner() {
               textAlign: 'left',
             }}
           >
-            We at NeuroX ait to provide you with top tier mental health services
+            We at NeuroX aim to provide you with top tier mental health services
             using our novel AI
           </p>
           <button
-            style={{ ...styles.button, marginTop: '5em' }}
+            style={{ ...styles.button, marginTop: '2rem' }}
             className="green-border-hover"
           >
             Discover Now
@@ -81,13 +85,12 @@ function Banner() {
         style={{
           position: 'absolute',
           top: '30vh',
-          left:'65em',
+          left: '65em',
           display: 'flex',
           flexDirection: 'column',
         }}
       >
         <img src={slide} style={{ height: '40%', width: '40%' }} />
-
       </div>
     </div>
   );
@@ -96,6 +99,7 @@ function Banner() {
 const styles = {
   container: {
     height: '100vh',
+    minHeight: '700px',
     display: 'flex',
     flexDirection: 'row',
   },

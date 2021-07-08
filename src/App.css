@@ -1,52 +1,55 @@
 .green-border-hover:hover {
-	border-color: #00faad !important;
+  border-color: #00faad !important;
 }
 
 .service-background {
-	background-image: url("assets/section2.png");
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url('assets/section2.png');
+  min-height: '700px';
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer-background {
-	background-image: url("assets/footer.png");
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url('assets/footer.png');
+  min-height: '700px';
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner-background {
-	background-image: url("assets/BG-01.jpg");
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url('assets/BG-01.jpg');
+  min-height: '700px';
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .button-color-hover:hover {
-	background-color: #58ffca !important;
-	border-color: 1px solid #58ffca !important;
+  background-color: #58ffca !important;
+  border-color: 1px solid #58ffca !important;
 }
 
 .sideway-text {
-	writing-mode: vertical-lr;
-	transform: rotateZ(180deg);
+  writing-mode: vertical-lr;
+  transform: rotateZ(180deg);
 }
 
 .lufga-font {
-	font-family: "lufgaRegular";
+  font-family: 'lufgaRegular';
 }
 
 .rotate180 {
-	transform: rotateX(180deg);
+  transform: rotateX(180deg);
 }
 .rotate180:hover {
-	transform: scale(1.3) rotateX(180deg);
+  transform: scale(1.3) rotateX(180deg);
 }
 .hover-scale:hover {
-	transform: scale(1.3);
+  transform: scale(1.3);
 }
 .ul {
-	list-style-type: none;
+  list-style-type: none;
 }

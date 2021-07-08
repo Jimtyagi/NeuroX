@@ -5,12 +5,11 @@ import { useHistory } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 function Header() {
-    const history = useHistory();
+  const history = useHistory();
   return (
     <div style={styles.container} className="banner-background">
       <div style={styles.sidebarContainer}>
         <img src={burger} style={{ padding: '0.5em 0' }} />
-       
       </div>
       <div style={styles.contentContainer}>
         <div style={styles.headerContainer}>
@@ -22,10 +21,13 @@ function Header() {
               alignItems: 'center',
             }}
           >
-              <button style={{backgroundColor: 'transparent', border: '0px',}} onClick={() => history.push('/')} >
+            <button
+              style={{ backgroundColor: 'transparent', border: '0px' }}
+              onClick={() => history.push('/')}
+            >
               <img src={logo} style={{ width: '70px', height: '60px' }} />
             </button>
-            
+
             <span
               style={{ fontSize: '1.5em', color: '#fff', paddingLeft: '1em' }}
             >
@@ -41,15 +43,17 @@ function Header() {
             >
               Login
             </button>
-            
-            <button style={styles.button} onClick={() => history.push('/Register')} className="green-border-hover">
-            Sign Up
+
+            <button
+              style={styles.button}
+              onClick={() => history.push('/Register')}
+              className="green-border-hover"
+            >
+              Sign Up
             </button>
           </div>
         </div>
-       
       </div>
-     
     </div>
   );
 }
@@ -76,7 +80,7 @@ const styles = {
     alignItems: 'center',
     padding: '3em 1em 1em',
   },
- 
+
   button: {
     fontSize: '1em',
     padding: '0 3.5em',
