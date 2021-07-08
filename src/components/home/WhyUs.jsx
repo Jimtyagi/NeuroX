@@ -139,7 +139,7 @@ const styles = {
     maxWidth: '65vw',
     minWidth: '45vw',
     width: '100%',
-    height: '13em',
+    height: '7em',
     bottom: 0,
     margin: 0,
     marginTop: '2em',
