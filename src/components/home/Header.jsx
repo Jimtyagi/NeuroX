@@ -32,7 +32,7 @@ function Header() {
               style={{ fontSize: '1.5em', color: '#fff', paddingLeft: '1em' }}
             >
               {' '}
-              Neuro X Technology Baby
+              Neuro X Technologies
             </span>
           </div>
           <div style={{ display: 'flex', flexDirection: 'row' }}>

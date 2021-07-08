@@ -13,19 +13,19 @@ function WhyUs() {
               flexDirection: 'column',}}>
         <div style={styles.innerContainer}>
 
-        <WhyBox title="1. Novel AI Technology " />
-        <WhyBox title="2. Patented Invention " />
-        <WhyBox title="3. Affordable and cost effective packages" />
+        <WhyBox title="Novel AI Technology " />
+        <WhyBox title="Patented Invention " />
+        <WhyBox title="Affordable and cost effective packages" />
         </div>
         <div style={styles.innerContainer}>
-        <WhyBox title="4. Successful beta testing on prototype" />
-        <WhyBox title="5. Wide range of diagnostic, prognostic and predictory services"/ >
-        <WhyBox title="6. Governement and University certified"/ >
+        <WhyBox title="Successful beta testing on prototype" />
+        <WhyBox title="Wide range of diagnostic, prognostic and predictory services"/ >
+        <WhyBox title="Governement and University certified"/ >
         </div>
         <div style={styles.innerContainer}>
-        <WhyBox title="7. Nationally recognized"/ >
-        <WhyBox title="8. Pre investments, grants and incentives"/ >
-        <WhyBox title="9. Professional team of engineers and clinicians"/ >
+        <WhyBox title="Nationally recognized"/ >
+        <WhyBox title="Pre investments, grants and incentives"/ >
+        <WhyBox title="Professional team of engineers and clinicians"/ >
         </div>
         </div>
       <div style={{ ...styles.bottomContainer, position: 'relative' }}>
